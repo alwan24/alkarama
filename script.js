@@ -7,5 +7,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(() => {
       currentIndex = (currentIndex + 1) % totalSlides;
       slides.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }, 3000); // Change slide every 5 seconds
+    }, 10000); // Change slide every 5 seconds
   });
